@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Find Partha</title>
+    <!-- HOSTED -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,600italic,300italic,400italic,300,700italic,800italic,800"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="http://cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css"
+      media="all"
+      rel="stylesheet"
+    />
+    <!-- HOSTED -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+    <!--LOCAL-->
+
+    <link rel="stylesheet" href="css/index.css">
+    <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/>
+
+    <script src="scripts/pt.min.js"></script>
+    <script src="scripts/index.js"></script>
+    <script src="scripts/modal.js"></script>
+  </head>
+  <body>
+    <div class="overflow-wrap">
+  <!-- HOME -->
+  <div class="modal-wrap flex">
+    <div class="mask"></div>
+    <div class="modal" id="modal">
+      <div class="carousel-wrap">
+        <div class="window">
+          <div id="carousel">
+            <div class="slide"></div>
+            <div class="slide"></div>
+            <div class="slide"></div>
+          </div>
+          <i class="mdi mdi-chevron-left" id="prev"></i>
+          <i class="mdi mdi-chevron-right" id="next"></i>
+        </div>
+      </div>
+      <div class="info-box">
+        <div class="title"></div>
+        <div class="tag"></div>
+        <div class="detail"></div>
+        <a href="#" target="_blank"
+          ><div class="button">
+            <i class="mdi mdi-open-in-new"></i>VIEW SITE
+          </div></a
+        >
+      </div>
+      <i class="close mdi mdi-close"></i>
+    </div>
+  </div>
+    <section id="home" class="flex height-fix">
+      <div id="pt" class="canvas">
+        <canvas id="canvas" width="333" height="678" style="width : 333px height : 678px"></canvas>
+      </div>
+      <div class="flex">
+        <div class="text">
+          Hello, I'm <span class="highlight">Partha Basak</span>.
+                      <br />
+                      I'm a Software Engineer.
+        </div>
+        <!-- <div class="button page-link" dest="about"> -->
+        <div class="button page-link" dest="about">
+          View my work <i class="mdi mdi-arrow-right"></i>
+        </div>
+
+                  <nav class="flex desk">
+                    <div class="link-wrap">
+                      <div class="page-link active" dest="home">home</div>
+                      <div class="page-link" dest="about">about</div>
+                      <div class="page-link" dest="portfolio">portfolio</div>
+                      <div class="page-link" dest="blog">certification</div>
+                      <div class="page-link" dest="contact">contact</div>
+                    </div>
+                    <i class="mdi mdi-menu"></i>
+                  </nav>
+                </div>
+              </section>
+
+              <!-- ABOUT -->
+              <section id="about">
+                <div class="container flex">
+                  <div class="header waypoint animated slide-in-left" data-animation="slide-in-left">
+                    ABOUT
+                  </div>
+                  <div class="header-bar waypoint animated slide-in-left" data-animation="slide-in-left" data-delay=".5s" style="animation-delay: 0.5s;"></div>
+
+                  <div class="flex row label-wrap">
+                    <div class="flex row-gt-sm">
+                      <div class="flex bullet-wrap ">
+                        <div class="hex-wrap waypoint animated flip-in-x" data-animation="flip-in-x">
+                          <div class="hexagon">
+                            <i class="mdi mdi-speedometer"></i>
+                          </div>
+                        </div>
+                        <div class="waypoint animated fade-in" data-animation="fade-in">
+                          <div class="label bold">Fast</div>
+                          <div>
+                            Working consistently in fast pace is my #1 work ethic which helps
+                            me finish my work quickly.
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="flex bullet-wrap ">
+                        <div class="hex-wrap waypoint animated flip-in-x" data-animation="flip-in-x" data-delay=".2s" style="animation-delay: 0.2s;">
+                          <div class="hexagon">
+                            <i class="mdi mdi-clock-fast"></i>
+                          </div>
+                        </div>
+                        <div class="waypoint animated fade-in" data-animation="fade-in" data-delay=".2s" style="animation-delay: 0.2s;">
+                          <div class="label bold">Quck Learner</div>
+                          <div>Ability to learn new technology is one of my strength.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flex row-gt-sm">
+                      <div class="flex bullet-wrap ">
+                        <div class="hex-wrap waypoint animated flip-in-x" data-animation="flip-in-x" data-delay=".4s" style="animation-delay: 0.4s;">
+                          <div class="hexagon">
+                            <i class="mdi mdi-lightbulb-outline"></i>
+                          </div>
+                        </div>
+                        <div class="waypoint animated fade-in" data-animation="fade-in" data-delay=".4s" style="animation-delay: 0.4s;">
+                          <div class="label bold">Intuitive</div>
+                          <div>Intutive thinking is my way to solve problems.</div>
+                        </div>
+                      </div>
+
+                      <div class="flex bullet-wrap ">
+                        <div class="hex-wrap waypoint animated flip-in-x" data-animation="flip-in-x" data-delay=".6s" style="animation-delay: 0.6s;">
+                          <div class="hexagon">
+                            <i class="mdi mdi-rocket"></i>
+                          </div>
+                        </div>
+                        <div class="waypoint animated fade-in" data-animation="fade-in" data-delay=".6s" style="animation-delay: 0.6s;">
+                          <div class="label bold">Dynamic</div>
+                          <div>
+                            While at work being agile and flexible is my way of working dynamically.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="skills-wrapper flex row-gt-sm">
+                    <div class="flex flex-50-gt-sm waypoint animated slide-in-left" data-animation="slide-in-left">
+                      <img src="img/ParthaSarathiBasak.jpg" class="me">
+                      <!-- <div><img class="up-arrow" src="img/up-arrow.png"></div> -->
+                      <div class="label bold">Who's this guy?</div>
+                      <div>
+                        I'm a Software Developer for
+                        <a class="highlight" href="https://www.honeywell.com/en-us" target="_blank">Honeywell</a>
+                        in Bangalore, INDIA.
+                        <br>
+                        I have serious passion for software development, learning and working on
+                        latest technolgy to achieve automation everywhere.
+                        <br>
+                        <span class="page-link highlight" dest="contact">Let's connect.</span>
+                      </div>
+                    </div>
+
+                    <div class="flex flex-50-gt-sm waypoint bars-wrap animated slide-in-right" data-animation="slide-in-right">
+                      <div class="bar flex">
+                        <div class="bar fill" style="width:90%">
+                          <div class="tag bold flex">PERL</div>
+                        </div>
+                        <span>90%</span>
+                      </div>
+
+                      <div class="bar flex">
+                        <div class="bar fill" style="width:90%">
+                          <div class="tag bold flex">PYTHON</div>
+                        </div>
+                        <span>90%</span>
+                      </div>
+
+                      <div class="bar flex">
+                        <div class="bar fill" style="width:80%">
+                          <div class="tag bold flex">HTML</div>
+                        </div>
+                        <span>80%</span>
+                      </div>
+
+                      <div class="bar flex">
+                        <div class="bar fill" style="width:80%">
+                          <div class="tag bold flex">CSS</div>
+                        </div>
+                        <span>80%</span>
+                      </div>
+
+                      <div class="bar flex">
+                        <div class="bar fill" style="width:60%">
+                          <div class="tag bold flex">JavaScript</div>
+                        </div>
+                        <span>60%</span>
+                      </div>
+
+                      <div class="bar flex">
+                        <div class="bar fill" style="width:65%">
+                          <div class="tag bold flex">PL/SQL</div>
+                        </div>
+                        <span>65%</span>
+                      </div>
+
+                      <div class="bar flex">
+                        <div class="bar fill" style="width:65%">
+                          <div class="tag bold flex">Unix/Linux</div>
+                        </div>
+                        <span>65%</span>
+                      </div>
+
+                      <div class="bar flex">
+                        <div class="bar fill" style="width:50%">
+                          <div class="tag bold flex">Oracle</div>
+                        </div>
+                        <span>50%</span>
+                      </div>
+
+                      <div class="bar flex">
+                        <div class="bar fill" style="width:60%">
+                          <div class="tag bold flex">Agile/SCRUM</div>
+                        </div>
+                        <span>60%</span>
+                      </div>
+
+                      <div class="bar flex">
+                        <div class="bar fill" style="width:50%">
+                          <div class="tag bold flex">Data Analytics</div>
+                        </div>
+                        <span>50%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <!-- PORTFOLIO -->
+              <section class="flex" id="portfolio">
+                <div class="header waypoint animated slide-in-right" data-animation="slide-in-right">
+                  PORTFOLIO
+                </div>
+                <div class="header-bar waypoint animated slide-in-right" data-animation="slide-in-right" data-delay=".3s" style="animation-delay: 0.3s;"></div>
+
+                <div class="filter-wrap waypoint animated fade-in" data-animation="fade-in">
+                  <div class="flex row">
+                    <div class="filter active" data-filter="all">EMPLOYERS</div>
+                    <!-- <div class="filter" data-filter=".rails">EMPLOYERS</div> -->
+                    <div class="filter" data-filter=".rails"><a href="#!">PROJECTS</a></div>
+                    <!-- <div class="filter" data-filter=".js">JAVASCRIPT</div> -->
+                  </div>
+                  <div class="float-bar" style="left: 25px; width: 112px;">
+                    <div class="flex row" style="left: -25px;">
+                      <div class="filter active" data-filter="all">EMPLOYERS</div>
+                      <div class="filter" data-filter=".rails"><a href="#!">PROJECTS</a></div>
+                      <!-- <div class="filter" data-filter=".react">REACT-JS</div>
+                      <div class="filter" data-filter=".js">JAVASCRIPT</div> -->
+                    </div>
+                  </div>
+                </div>
+
+                <div id="gallery" class="container flex row wrap animated">
+                  <div class="mix react" data-my-order="1" style="display: inline-block;" data-bound="">
+                    <div>
+                      <div class="card"></div>
+                      <div class="text">
+                        <div class="bold">Technology Specialist</div>
+                        <span class="highlight">From : July 2018 - Till Date</span>
+                      </div>
+                      <!-- <div class="button" id="ordering">LEARN MORE</div> -->
+                    </div>
+                  </div>
+
+                  <div class="mix react" data-my-order="1" style="display: inline-block;" data-bound="">
+                    <div>
+                      <div class="card"></div>
+                      <div class="text">
+                        <div class="bold">Module Lead</div>
+                        <span class="highlight">From : January 2017 - June 2018</span>
+                      </div>
+                      <!-- <div class="button" id="discover">LEARN MORE</div> -->
+                    </div>
+                  </div>
+
+                  <div class="mix react" data-my-order="1" style="display: inline-block;" data-bound="">
+                    <div>
+                      <div class="card"></div>
+                      <div class="text">
+                        <div class="bold">Associate Technology Lead</div>
+                        <span class="highlight">From : June 2014 - December 2016</span>
+                      </div>
+                      <!-- <div class="button" id="newrelic">LEARN MORE</div> -->
+                    </div>
+                  </div>
+
+                  <div class="mix react" data-my-order="1" style="display: inline-block;" data-bound="">
+                    <div>
+                      <div class="card"></div>
+                      <div class="text">
+                        <div class="bold">Senior Software Engineer</div>
+                        <span class="highlight">From : September 2018 - June 2014</span>
+                      </div>
+                      <!-- <div class="button" id="roambi">LEARN MORE</div> -->
+                    </div>
+                  </div>
+
+                  <div class="mix react" data-my-order="1" style="display: inline-block;" data-bound="">
+                    <div>
+                      <div class="card"></div>
+                      <div class="text">
+                        <div class="bold">Senior Software Engineer</div>
+                        <span class="highlight">From : May 2010 - May 2013</span>
+                      </div>
+                      <!-- <div class="button" id="walker">LEARN MORE</div> -->
+                    </div>
+                  </div>
+
+                  <div class="mix js" data-my-order="1" style="display: inline-block;" data-bound="">
+                    <div>
+                      <div class="card"></div>
+                      <div class="text">
+                        <div class="bold">Senior Member of Techical Staff</div>
+                        <span class="highlight">From : August 2006 - May 2010</span>
+                      </div>
+                      <!-- <div class="button" id="mystand">LEARN MORE</div> -->
+                    </div>
+                  </div>
+                </div>
+                <div class="container flex" >
+                  <div class="work">
+                    <div class="flex row wrap">
+                      <div class="flex row-gt-sm">
+                          <!-- <div class="blog-wrap waypoint" data-animation="fade-in"> -->
+                            <div class="fade-wrap-proj">
+                              <div class="thumb" id="thumb-1"></div>
+                              <div class="label bold">Honeywell</div>
+                              <div class="lop">
+                                <br>
+                                <i class="mdi mdi-fast-forward"></i> Workflow Automation using IPSoft.
+                                <br>
+                                <i class="mdi mdi-fast-forward"></i>Data Monitoring automation workflow.
+                                <br>
+                                <i class="mdi mdi-fast-forward"></i>Data reporting,dasboard using APTARE.
+
+                              </div>
+                            </div>
+                            <div class="fade-wrap-proj">
+                                  <div class="thumb" id="thumb-2"></div>
+                                  <div class="label bold">Hitachi</div>
+                                  <div class="lop">
+                                    <br>
+                                    <i class="mdi mdi-fast-forward"></i>Automation, Analysis & Reporting Framework.
+                                    <br>
+                                    <i class="mdi mdi-fast-forward"></i>Test Data Average Calculator Tool.
+                                    <br>
+                                    <i class="mdi mdi-fast-forward"></i>Master CSV Generator.
+                                    <br>
+                                    <i class="mdi mdi-fast-forward"></i>Test Execution Framework.
+
+                                  </div>
+                            </div>
+                            <div class="fade-wrap-proj">
+                                  <div class="thumb" id="thumb-3"></div>
+                                  <div class="label bold">Digital Group</div>
+                                  <div class="lop">
+                                    <br>
+                                    <i class="mdi mdi-fast-forward"></i>Integration ePub Books Browse Interface.
+                                    <br>
+                                    <i class="mdi mdi-fast-forward"></i>ePub conversion workflow.
+                                    <br>
+                                    <i class="mdi mdi-fast-forward"></i>Regression runner tool - Enhancement.
+                                    <br>
+                                    <i class="mdi mdi-fast-forward"></i>Quality Center Interface using REST API.
+
+                                  </div>
+                            </div>
+                            <div class="fade-wrap-proj">
+                                  <div class="thumb" id="thumb-3"></div>
+                                  <div class="label bold">Intel</div>
+                                  <div class="lop">
+                                    <br>
+                                    <i class="mdi mdi-fast-forward"></i>Regression runner tool - Enhancement.
+                                    <br>
+                                    <i class="mdi mdi-fast-forward"></i>Quality Center Interface using REST API.
+
+                                  </div>
+                            </div>
+                            <div class="fade-wrap-proj">
+                                  <div class="thumb" id="thumb-3"></div>
+                                  <div class="label bold">Accenture</div>
+                                  <div class="lop">
+                                    <br>
+                                    <i class="mdi mdi-fast-forward"></i>Enhancement of CISCO xRM PERL utility.
+                                    <br>
+                                    <i class="mdi mdi-fast-forward"></i>Data conversion project of Bank Of America.
+                                    <br>
+                                    <i class="mdi mdi-fast-forward"></i>eCOMMERCE Portal Enhancement.
+                                    <br>
+                                    <i class="mdi mdi-fast-forward"></i>Hilton Web App Enhancement.
+
+                                  </div>
+                            </div>
+                            <div class="fade-wrap-proj">
+                                  <div class="thumb" id="thumb-3"></div>
+                                  <div class="label bold">Interra</div>
+                                  <div class="lop">
+                                    <br>
+                                    <i class="mdi mdi-fast-forward"></i>Semiconductor library tool development.
+                                    <br>
+                                    <i class="mdi mdi-fast-forward"></i>IP files regression tool development.
+                                    <br>
+                                    <i class="mdi mdi-fast-forward"></i>IBIS model generation workflow deveopment.
+                                    <br>
+                                    <i class="mdi mdi-fast-forward"></i>Data Sheet Generator Tool Enhancement.
+
+                                  </div>
+                            </div>
+                      </div>
+                    </div>
+                   </div>
+                  </div>
+              </section>
+
+              <!-- BLOG -->
+              <section id="blog">
+                <div class="container flex">
+                  <div class="header waypoint" data-animation="slide-in-left">CERTIFICATION</div>
+                  <div class="header-bar waypoint" data-animation="slide-in-left" data-delay=".5s" style="animation-delay: 0.5s;"></div>
+
+                  <div class="flex row wrap">
+                    <div class="flex row-gt-sm">
+                      <!-- <a href="http://blog.eyecuelab.com/2016/04/29/breaking-your-coders-block/" target="_blank"> -->
+                        <div class="blog-wrap waypoint" data-animation="fade-in">
+                          <div class="fade-wrap">
+                            <div class="thumb" id="thumb-1"></div>
+                            <div class="label bold">Web<br>HTML 5  <br>University Of Michigan</div>
+                            <div class="date">JULY 13, 2020</div>
+                            <div class="bar"></div>
+                            <!-- <div class="text">
+                              At one time or another, as a developer, we've all found
+                              ourselves hopelessly stuck on a coding issue...
+                            </div> -->
+                          </div>
+                        </div>
+                      </a>
+                      <!-- <a href="http://blog.eyecuelab.com/2015/03/19/this-is-your-brain-on-caffeine/" target="_blank"> -->
+                        <div class="blog-wrap waypoint" data-animation="fade-in" data-delay=".2s" style="animation-delay: 0.2s;">
+                          <div class="fade-wrap">
+                            <div class="thumb" id="thumb-2"></div>
+                            <div class="label bold">
+                              Web<br>CSS3<br>University Of Michigan
+                            </div>
+                            <div class="date">JULY 06, 2020</div>
+                            <div class="bar"></div>
+                            <!-- <div class="text">
+                              If there's one thing I can truly claim to be an expert on,
+                              it's staying awake. For five years I struggled to stay
+                              employed...
+                            </div> -->
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="flex row-gt-sm">
+                      <!-- <a href="http://blog.eyecuelab.com/2015/03/04/getting-a-handle-on-handlebars/" target="_blank"> -->
+                        <div class="blog-wrap waypoint" data-animation="fade-in" data-delay=".4s" style="animation-delay: 0.4s;">
+                          <div class="fade-wrap">
+                            <div class="thumb" id="thumb-3"></div>
+                            <div class="label bold">Web<br>JavaScript<br>University Of Michigan</div>
+                            <div class="date">AUGUST 21, 2020</div>
+                            <div class="bar"></div>
+                            <!-- <div class="text">
+                              Here at EyeCue Lab we render most of our data-laden HTML
+                              pages in Handlebar templates...
+                            </div> -->
+                          </div>
+                        </div>
+                      </a>
+                      <!-- <a href="http://blog.eyecuelab.com/2015/02/23/essential_extensions/" target="_blank"> -->
+                        <div class="blog-wrap waypoint" data-animation="fade-in" data-delay=".6s" style="animation-delay: 0.6s;">
+                          <div class="fade-wrap">
+                            <div class="thumb" id="thumb-4"></div>
+                            <div class="label bold">
+                              Web<br>Responsive Design<br>University Of Michigan
+                            </div>
+                            <div class="date">SEPTEMBER 10, 2020</div>
+                            <div class="bar"></div>
+                            <!-- <div class="text">
+                              If you're not using Google Chrome as a front-end web
+                              developer, you're missing out. Not only is Chrome the...
+                            </div> -->
+                          </div>
+                        </div>
+                        <div class="blog-wrap waypoint" data-animation="fade-in" data-delay=".6s" style="animation-delay: 0.6s;">
+                          <div class="fade-wrap">
+                            <div class="thumb" id="thumb-5"></div>
+                            <div class="label bold">
+                              Python<br>Classes & Inheritance<br>University Of Michigan
+                            </div>
+                            <div class="date">FEBRUARY 01, 2020</div>
+                            <div class="bar"></div>
+                            <!-- <div class="text">
+                              If you're not using Google Chrome as a front-end web
+                              developer, you're missing out. Not only is Chrome the...
+                            </div> -->
+                          </div>
+                        </div>
+                        <div class="blog-wrap waypoint" data-animation="fade-in" data-delay=".6s" style="animation-delay: 0.6s;">
+                          <div class="fade-wrap">
+                            <div class="thumb" id="thumb-6"></div>
+                            <div class="label bold">
+                              Python<br>Data Structures<br>University Of Michigan
+                            </div>
+                            <div class="date">DECEMBER 10, 2019</div>
+                            <div class="bar"></div>
+                            <!-- <div class="text">
+                              If you're not using Google Chrome as a front-end web
+                              developer, you're missing out. Not only is Chrome the...
+                            </div> -->
+                          </div>
+                        </div>
+                        <div class="blog-wrap waypoint" data-animation="fade-in" data-delay=".6s" style="animation-delay: 0.6s;">
+                          <div class="fade-wrap">
+                            <div class="thumb" id="thumb-7"></div>
+                            <div class="label bold">
+                              Python<br>Using Databases<br>University Of Michigan
+                            </div>
+                            <div class="date">JUNE 01, 2020</div>
+                            <div class="bar"></div>
+                            <!-- <div class="text">
+                              If you're not using Google Chrome as a front-end web
+                              developer, you're missing out. Not only is Chrome the...
+                            </div> -->
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <!-- CONTACT -->
+              <section id="contact">
+                <svg preserveAspectRatio="none" viewBox="0 0 100 102" height="75" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" class="svgcolor-light">
+                  <path d="M0 0 L50 100 L100 0 Z" fill="white" stroke="white"></path>
+                </svg>
+                <div class="container flex">
+                  <div class="header waypoint" data-animation="slide-in-left">
+                    CONTACT
+                  </div>
+                  <div class="header-bar waypoint" data-animation="slide-in-right" data-delay=".25s" style="animation-delay: 0.25s;"></div>
+                  <!-- <div class="highlight waypoint" data-animation="slide-in-right" data-delay=".5s" style="animation-delay: 0.5s;">
+                    Have a question or want to work together?
+                  </div> -->
+                  <!-- <form class="waypoint" data-animation="pop-in" data-delay=".5s" id="contact-form" style="animation-delay: 0.5s;">
+                    <input placeholder="Name" type="text" name="name" required="">
+                    <input placeholder="Enter email" type="email" name="email" required="">
+                    <textarea placeholder="Your Message" type="text" name="message"></textarea>
+                    <div id="success">
+                      <div>
+                        Your message was sent successfully. Thanks!<span id="close" class="mdi mdi-close"></span>
+                      </div>
+                    </div>
+                    <input class="button" type="submit" id="submit" value="SUBMIT">
+                  </form> -->
+                  <div class="label_contact bold">Name : Partha Basak</div>
+                  <div class="label_contact bold">Email : parthaishere@gmail.com</div>
+                  <div class="label_contact bold">Phone : +91 70280-10958</div><br>
+                  <div class="label_contact bold">Resume Download</div>
+                  <div>
+                    <a href="doc/Partha Basak_Resume.doc" download><br>
+                    <img src="img/cv.png" width="50" height="50">
+                  </div>
+                  <!-- <div style="display:inline">doc&nbsp&nbsp
+                    <a href="doc/Partha Basak_Resume.doc" download>
+                  </div>
+                  <div style="display:inline">pdf</div> -->
+                </div>
+              </section>
+
+              <footer>
+                <i class="mdi mdi-chevron-double-up page-link" dest="home"></i>
+
+                <div class="icon-wrap flex row">
+                  <a href="https://www.linkedin.com/in/partha-basak-3b92736/">
+                    <div class="flex icon" id="icon-2">
+                      <i class="mdi mdi-linkedin"></i>
+                    </div>
+                  </a>
+                  <!-- <a href="https://www.facebook.com/matthew.williams.351">
+                    <div class="flex icon" id="icon-3">
+                      <i class="mdi mdi-facebook"></i>
+                    </div>
+                  </a>
+                  <a href="https://instagram.com/infinite_edge/">
+                    <div class="flex icon" id="icon-4">
+                      <i class="mdi mdi-instagram"></i>
+                    </div>
+                  </a>
+                  <a href="http://codepen.io/matthewwilliams/">
+                    <div class="flex icon" id="icon-5">
+                      <i class="mdi mdi-codepen"></i>
+                    </div>
+                  </a> -->
+                </div>
+                <div class="info-box">
+                  <!-- <div class="footnote">
+                    MATTHEW WILLIAMS <span class="highlight">©2015</span>
+                  </div> -->
+                </div>
+              </footer>
+            </div>
+
+            <div id="preload">
+              <img src="./findmatthew.com_files/me.png">
+              <img src="./findmatthew.com_files/filler.jpg">
+              <img src="./findmatthew.com_files/thumb-1.jpg">
+              <img src="./findmatthew.com_files/thumb-2.jpg">
+              <img src="./findmatthew.com_files/thumb-3.jpg">
+              <img src="./findmatthew.com_files/thumb-4.jpg">
+              <img src="./findmatthew.com_files/thumb-5.jpg">
+              <img src="./findmatthew.com_files/thumb-6.jpg">
+              <img src="./findmatthew.com_files/blog-1.jpg">
+              <img src="./findmatthew.com_files/blog-2.jpg">
+              <img src="./findmatthew.com_files/blog-3.jpg">
+              <img src="./findmatthew.com_files/blog-4.jpg">
+              <img src="./findmatthew.com_files/discover-0.jpg">
+              <img src="./findmatthew.com_files/discover-1.jpg">
+              <img src="./findmatthew.com_files/discover-2.jpg">
+              <img src="./findmatthew.com_files/ordering-0.jpg">
+              <img src="./findmatthew.com_files/ordering-1.jpg">
+              <img src="./findmatthew.com_files/ordering-2.jpg">
+              <img src="./findmatthew.com_files/newrelic-0.jpg">
+              <img src="./findmatthew.com_files/newrelic-1.jpg">
+              <img src="./findmatthew.com_files/newrelic-2.jpg">
+              <img src="./findmatthew.com_files/mystand-0.jpg">
+              <img src="./findmatthew.com_files/mystand-1.jpg">
+              <img src="./findmatthew.com_files/mystand-2.jpg">
+              <img src="./findmatthew.com_files/never-0.jpg">
+              <img src="./findmatthew.com_files/never-1.jpg">
+              <img src="./findmatthew.com_files/never-2.jpg">
+              <img src="./findmatthew.com_files/powur-0.jpg">
+              <img src="./findmatthew.com_files/powur-1.jpg">
+              <img src="./findmatthew.com_files/powur-2.jpg">
+              <img src="./findmatthew.com_files/roambi-0.jpg">
+              <img src="./findmatthew.com_files/roambi-1.jpg">
+              <img src="./findmatthew.com_files/roambi-2.jpg">
+              <img src="./findmatthew.com_files/themall-0.jpg">
+              <img src="./findmatthew.com_files/themall-1.jpg">
+              <img src="./findmatthew.com_files/themall-2.jpg">
+              <img src="./findmatthew.com_files/walker-0.jpg">
+              <img src="./findmatthew.com_files/walker-1.jpg">
+              <img src="./findmatthew.com_files/walker-2.jpg">
+            </div>
+
+        <script src="./findmatthew.com_files/canvas.js.download"></script>
+        <object id="__symantecMPKIClientMessenger" data-supports-flavor-configuration="true" data-extension-version="1.0.0.143" style="display: none;"></object><span id="__symantecMPKIClientDetector" style="display: none;">__PRESENT</span></body></html>
+</html>
